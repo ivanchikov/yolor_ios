@@ -11,7 +11,7 @@ import SwiftUI
 struct yolorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            YolorAppRoot()
         }
     }
 }
