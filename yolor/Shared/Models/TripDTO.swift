@@ -1,6 +1,6 @@
 import Foundation
 
-struct TripDTO {
+struct TripDTO: Codable, Equatable {
     var id: String
     var days: [DayDTO]
 
@@ -13,7 +13,7 @@ struct TripDTO {
     )
 }
 
-struct DayDTO {
+struct DayDTO: Codable, Equatable {
     var dayIndex: Int
     var title: String
 }
